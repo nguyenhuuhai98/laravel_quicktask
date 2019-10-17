@@ -13,5 +13,13 @@ return [
     'forge' => 'Forge',
     'vapor' => 'Vapor',
     'github' => 'GitHub',
+    'quickstart' => 'Laravel Quickstart - Intermediate',
+    'task' => 'Task',
+    'add_task' => 'Add Task',
+    'something_wrong' => 'Whoops! Something went wrong!',
+    'enter_task' => 'Enter task',
+    'current_task' => 'Current Tasks',
+    'action' => 'Action',
+    'delete' => 'Delete',
 
 ];
