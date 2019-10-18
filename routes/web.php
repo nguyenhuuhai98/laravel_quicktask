@@ -16,6 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('/tasks', 'TaskController@index')->name('all.tasks');
+Route::post('/store/{user}', 'TaskController@store')->name('post.task');
+Route::get('/delete/{task}', 'TaskController@destroy')->name('delete.task');
+
 
 Auth::routes();
 
